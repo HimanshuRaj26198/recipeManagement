@@ -1,0 +1,95 @@
+.logo img {
+    min-height: 55px;
+    min-width: 55px;
+    height: 6vw;
+    width: 6vw;
+    cursor: pointer;
+
+    &:hover {
+        animation: animate__swing;
+        animation-duration: 2s;
+    }
+}
+
+.navbar_main {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .nav_left_section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50vw;
+
+        .navbar_list {
+            display: flex;
+            width: 100%;
+            font-weight: 700;
+            font-size: 18px;
+
+
+
+            ul {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                list-style: none;
+                color: white;
+                min-width: 35%;
+
+                li {
+                    cursor: pointer;
+                    text-align: center;
+                    align-items: center;
+
+
+
+
+                    a {
+                        width: 100px;
+                        height: 34px;
+                        text-decoration: none;
+                        border-radius: 6px;
+                        transition: 0.5s;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        &:hover {
+                            background-color: black;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+
+    .nav_right_section {
+        height: 100%;
+        margin-right: 2%;
+        display: flex;
+        align-items: center;
+
+        .profile_menu {
+            display: flex;
+            align-items: center;
+
+            .prof_icon {
+                height: 29px;
+                width: 29px;
+                border-radius: 50%;
+                background-color: gray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+    }
+}

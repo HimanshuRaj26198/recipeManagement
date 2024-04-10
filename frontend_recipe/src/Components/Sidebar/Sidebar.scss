@@ -1,0 +1,15 @@
+.sidebar {
+    background-color: white;
+    box-shadow: 0px 0px 7px black;
+    height: 86.2vh;
+    overflow-y: scroll;
+
+    .filter_title {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        height: 45px;
+        z-index: 50;
+
+    }
+}

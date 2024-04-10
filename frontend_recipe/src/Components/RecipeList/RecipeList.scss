@@ -1,0 +1,23 @@
+.recipe_component {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 84vh;
+}
+
+.pagination_icone {
+    cursor: pointer;
+}
+
+.recipe_list_container {
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    gap: 2%;
+    margin-bottom: 28px;
+    width: 95%;
+}

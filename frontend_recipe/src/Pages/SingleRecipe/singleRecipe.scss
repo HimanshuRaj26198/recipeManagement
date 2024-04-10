@@ -1,0 +1,47 @@
+.root_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .singRecipe_component {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .recipe_leftSection {
+            max-width: 50vw;
+
+            .ratingBox {
+                display: flex;
+                align-items: center;
+
+                span {
+                    font-size: 32px;
+                    font-weight: bold;
+                    opacity: 50%;
+
+                }
+            }
+        }
+
+        .recipe_rightSection {
+            img {
+                max-width: 30vw;
+                height: auto;
+                border-radius: 28px;
+            }
+        }
+    }
+}
+
+
+.rating {
+    font-size: 48px;
+    color: orange;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.rating::before {
+    content: "★★★★★"
+}
